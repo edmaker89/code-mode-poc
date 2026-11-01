@@ -1,0 +1,33 @@
+{
+  "name": "code-mode-poc",
+  "version": "1.0.0",
+  "description": "Code Mode PoC - MCP tools via TypeScript API + Sandbox",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test:github": "tsx test-openrouter.ts",
+    "mcp": "tsx src/mcp-server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "code-mode",
+    "agents",
+    "typescript",
+    "sandbox"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "openai": "^7.47.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}
