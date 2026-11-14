@@ -1,5 +1,7 @@
 # Code Mode PoC
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/edmaker89-code-mode-poc-1p7boh?v=ebbba07ecf32eb64f8d6ed1c772f86f0)](https://m8ven.ai/mcp/edmaker89-code-mode-poc-1p7boh?s=readme)
+
 > **Proof-of-Concept** implementing Cloudflare's [Code Mode pattern](https://blog.cloudflare.com/code-mode/): convert MCP tools → TypeScript API → LLM writes code → executes in sandbox → calls MCP servers via injected bindings.
 
 ## Architecture
